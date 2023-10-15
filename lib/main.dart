@@ -146,3 +146,9 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 }
+//create states
+//create cubit
+//create function
+//provide cubit
+//integrate cubit
+//trigger cubit
