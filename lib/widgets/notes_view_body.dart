@@ -4,9 +4,6 @@ import 'package:notes/cubits/notes_cubit/notes_cubit.dart';
 import 'package:notes/widgets/custom_app_bar.dart';
 import 'package:notes/widgets/notes_list_view.dart';
 
-import 'custom_note_item.dart';
-
-
 class MyNotesViewBody extends StatelessWidget {
   const MyNotesViewBody({super.key});
 
@@ -28,8 +25,8 @@ class MyNotesViewBody extends StatelessWidget {
                 child: ListView(
                   children: const <Widget>[
 
-                    NotesItem(),
-                    NotesItem(),
+                   // NotesItem(),
+                    //NotesItem(),
                   ],
                 ),
               ),
