@@ -29,6 +29,7 @@ fetchAllNotes() async
       var noteBox=Hive.box<NoteModel>(kNotesBox);
       notes =noteBox.values.toList();
       print("notes.length ${notes!.length}");
+      emit(NotesSuccess());
   }
 
 }
