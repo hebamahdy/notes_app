@@ -21,6 +21,7 @@ class _AddNoteFormState extends State<AddNoteForm> {
   AutovalidateMode autoValidateMode = AutovalidateMode.disabled;
 
   String? title, subTitle;
+  Color ? color;
 
   @override
   Widget build(BuildContext context) {
@@ -48,7 +49,10 @@ class _AddNoteFormState extends State<AddNoteForm> {
             hint: 'content',
             maxLines: 5,
           ),
-          const  ColorsListView(),
+          const SizedBox(
+            height: 32,
+          ),
+            ColorsListView(),
           const SizedBox(
             height: 32,
           ),
